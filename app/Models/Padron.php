@@ -15,5 +15,6 @@ class Padron extends Model
         'apellido',
         'curp',
         'entidad',
+        'tipo_telefono'
     ];
 }

@@ -28,6 +28,10 @@ class PadronsTable
                     ->label('Entidad')
                     ->searchable()
                     ->sortable(),
+                TextColumn::make('tipo_telefono')
+                    ->label('Tipo Teléfono')
+                    ->searchable()
+                    ->sortable(),
                 TextColumn::make('created_at')
                     ->label('Fecha de creación')
                     ->dateTime()

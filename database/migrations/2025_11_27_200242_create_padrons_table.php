@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('nombre');
             $table->string('apellido');
             $table->string('curp', 18);
+            $table->string('tipo_telefono', 18);
             $table->timestamps();
         });
     }

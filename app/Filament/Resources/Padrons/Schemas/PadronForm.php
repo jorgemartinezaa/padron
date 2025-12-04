@@ -24,6 +24,12 @@ class PadronForm
                     ->maxLength(18)
                     ->minLength(18)
                     ->rule('regex:/^[A-Z]{4}[0-9]{6}[HM][A-Z]{5}[0-9A-Z][0-9]$/'),
+                Select::make('tipo_telefono')->label('Tipo Teléfono')
+    ->options([
+        'tipo_telefono_1' => 'Tipo teléfono 1',
+        'tipo_telefono_2' => 'Tipo teléfono 2',
+
+    ]),
                 Select::make('entidad')
                     ->label('Entidad')
                     ->required()
